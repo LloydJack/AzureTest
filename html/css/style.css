@@ -1,0 +1,22 @@
+.jumbotron > .container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+    }
+
+h1 {
+    text-align: center;
+}
+
+
+    body {
+        background-color: lightgray;
+    }
+
+    .footer {
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+

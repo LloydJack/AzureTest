@@ -1,0 +1,1 @@
+<h1>You are banned from photoShare, back to Instagram for you</h1>
