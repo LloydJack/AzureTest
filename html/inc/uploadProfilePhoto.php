@@ -51,8 +51,8 @@ if(isset($_FILES['file'])){
 
 
 // AWS access info
-    if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAJ4VDBBXDPPORABTQ');
-    if (!defined('awsSecretKey')) define('awsSecretKey', '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');
+    if (!defined('awsAccessKey')) define('awsAccessKey', 'MyKey');
+    if (!defined('awsSecretKey')) define('awsSecretKey', 'Secretkey');
     $uploadFile = $file_path; // File to upload, we'll use the S3 class since it exists
     $bucketName = uniqid('photoshare1303'); // Temporary bucket. After upload to this "Temporary bucket" we can move the file to any bucket from s3 control panel.
 
